@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBCF53F21D5BA1FA001C7C19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF53F11D5BA1FA001C7C19 /* AppDelegate.swift */; };
+		DBCF53F41D5BA1FA001C7C19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCF53F31D5BA1FA001C7C19 /* ViewController.swift */; };
+		DBCF53F71D5BA1FA001C7C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCF53F51D5BA1FA001C7C19 /* Main.storyboard */; };
+		DBCF53F91D5BA1FA001C7C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCF53F81D5BA1FA001C7C19 /* Assets.xcassets */; };
+		DBCF53FC1D5BA1FA001C7C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCF53FA1D5BA1FA001C7C19 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBCF53EE1D5BA1FA001C7C19 /* Spartan_Proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spartan_Proj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCF53F11D5BA1FA001C7C19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBCF53F31D5BA1FA001C7C19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBCF53F61D5BA1FA001C7C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBCF53F81D5BA1FA001C7C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBCF53FB1D5BA1FA001C7C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBCF53FD1D5BA1FA001C7C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBCF53EB1D5BA1FA001C7C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBCF53E51D5BA1FA001C7C19 = {
+			isa = PBXGroup;
+			children = (
+				DBCF53F01D5BA1FA001C7C19 /* Spartan_Proj */,
+				DBCF53EF1D5BA1FA001C7C19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBCF53EF1D5BA1FA001C7C19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBCF53EE1D5BA1FA001C7C19 /* Spartan_Proj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBCF53F01D5BA1FA001C7C19 /* Spartan_Proj */ = {
+			isa = PBXGroup;
+			children = (
+				DBCF53F11D5BA1FA001C7C19 /* AppDelegate.swift */,
+				DBCF53F31D5BA1FA001C7C19 /* ViewController.swift */,
+				DBCF53F51D5BA1FA001C7C19 /* Main.storyboard */,
+				DBCF53F81D5BA1FA001C7C19 /* Assets.xcassets */,
+				DBCF53FA1D5BA1FA001C7C19 /* LaunchScreen.storyboard */,
+				DBCF53FD1D5BA1FA001C7C19 /* Info.plist */,
+			);
+			path = Spartan_Proj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBCF53ED1D5BA1FA001C7C19 /* Spartan_Proj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCF54001D5BA1FA001C7C19 /* Build configuration list for PBXNativeTarget "Spartan_Proj" */;
+			buildPhases = (
+				DBCF53EA1D5BA1FA001C7C19 /* Sources */,
+				DBCF53EB1D5BA1FA001C7C19 /* Frameworks */,
+				DBCF53EC1D5BA1FA001C7C19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spartan_Proj;
+			productName = Spartan_Proj;
+			productReference = DBCF53EE1D5BA1FA001C7C19 /* Spartan_Proj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBCF53E61D5BA1FA001C7C19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Edward Garcia";
+				TargetAttributes = {
+					DBCF53ED1D5BA1FA001C7C19 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DBCF53E91D5BA1FA001C7C19 /* Build configuration list for PBXProject "Spartan_Proj" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBCF53E51D5BA1FA001C7C19;
+			productRefGroup = DBCF53EF1D5BA1FA001C7C19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBCF53ED1D5BA1FA001C7C19 /* Spartan_Proj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBCF53EC1D5BA1FA001C7C19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCF53FC1D5BA1FA001C7C19 /* LaunchScreen.storyboard in Resources */,
+				DBCF53F91D5BA1FA001C7C19 /* Assets.xcassets in Resources */,
+				DBCF53F71D5BA1FA001C7C19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBCF53EA1D5BA1FA001C7C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCF53F41D5BA1FA001C7C19 /* ViewController.swift in Sources */,
+				DBCF53F21D5BA1FA001C7C19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBCF53F51D5BA1FA001C7C19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBCF53F61D5BA1FA001C7C19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBCF53FA1D5BA1FA001C7C19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBCF53FB1D5BA1FA001C7C19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBCF53FE1D5BA1FA001C7C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBCF53FF1D5BA1FA001C7C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBCF54011D5BA1FA001C7C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spartan_Proj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YBE.Spartan-Proj";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBCF54021D5BA1FA001C7C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spartan_Proj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YBE.Spartan-Proj";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBCF53E91D5BA1FA001C7C19 /* Build configuration list for PBXProject "Spartan_Proj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCF53FE1D5BA1FA001C7C19 /* Debug */,
+				DBCF53FF1D5BA1FA001C7C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBCF54001D5BA1FA001C7C19 /* Build configuration list for PBXNativeTarget "Spartan_Proj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBCF54011D5BA1FA001C7C19 /* Debug */,
+				DBCF54021D5BA1FA001C7C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBCF53E61D5BA1FA001C7C19 /* Project object */;
+}
