@@ -12,6 +12,8 @@
 		DBCF53F71D5BA1FA001C7C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCF53F51D5BA1FA001C7C19 /* Main.storyboard */; };
 		DBCF53F91D5BA1FA001C7C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBCF53F81D5BA1FA001C7C19 /* Assets.xcassets */; };
 		DBCF53FC1D5BA1FA001C7C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCF53FA1D5BA1FA001C7C19 /* LaunchScreen.storyboard */; };
+		DBCF54041D5BA240001C7C19 /* 02 HHavok-main.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DBCF54031D5BA240001C7C19 /* 02 HHavok-main.mp3 */; };
+		DBCF54061D5BA275001C7C19 /* Punch.wav in Resources */ = {isa = PBXBuildFile; fileRef = DBCF54051D5BA275001C7C19 /* Punch.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DBCF53F81D5BA1FA001C7C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBCF53FB1D5BA1FA001C7C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBCF53FD1D5BA1FA001C7C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBCF54031D5BA240001C7C19 /* 02 HHavok-main.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "02 HHavok-main.mp3"; path = "../Music /02 HHavok-main.mp3"; sourceTree = "<group>"; };
+		DBCF54051D5BA275001C7C19 /* Punch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Punch.wav; path = "../Music /Punch.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		DBCF53E51D5BA1FA001C7C19 = {
 			isa = PBXGroup;
 			children = (
+				DBCF54031D5BA240001C7C19 /* 02 HHavok-main.mp3 */,
+				DBCF54051D5BA275001C7C19 /* Punch.wav */,
 				DBCF53F01D5BA1FA001C7C19 /* Spartan_Proj */,
 				DBCF53EF1D5BA1FA001C7C19 /* Products */,
 			);
@@ -123,7 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBCF53FC1D5BA1FA001C7C19 /* LaunchScreen.storyboard in Resources */,
+				DBCF54041D5BA240001C7C19 /* 02 HHavok-main.mp3 in Resources */,
 				DBCF53F91D5BA1FA001C7C19 /* Assets.xcassets in Resources */,
+				DBCF54061D5BA275001C7C19 /* Punch.wav in Resources */,
 				DBCF53F71D5BA1FA001C7C19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
