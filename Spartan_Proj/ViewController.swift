@@ -46,8 +46,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // players
-        player = Hero(name: "SirEmo2016", attackPwr: 8, hp: 217)
-        enemy = Enemy(name: "The Grumbler", attackPwr: 25, hp: 300)
+        player = Hero(name: "SirEmo2016", attackPwr: 30, hp: 105)
+        enemy = Enemy(name: "The Grumbler", attackPwr: 25, hp: 75)
         
         // input Hit Sound
         let hitPath = NSBundle.mainBundle().pathForResource("punch", ofType: "wav")
@@ -78,17 +78,31 @@ class ViewController: UIViewController {
   
     @IBAction func onenemyAttkBtnTapped(sender: AnyObject) {
         playHitSound()
-        if enemy.attemptAttack(player.attackPwr) {
-            messageLbl.text = "You Attacked \(enemy.name) for \(player.attackPwr)"
+        plyr2AttkBtn.hidden = true
+        delayAttack()
+        if player.attemptAttack(enemy.attackPwr) {
+            messageLbl.text = "You Attacked \(player.name) for \(player.attackPwr)"
+            heroHPLbl.text = "\(player.hp) HP"
         } else {
             messageLbl.text = "Your Attack Did Not Work"
         }
+        gameOver()
     
     }
     
     
     @IBAction func onheroAttkBtnTapped(sender: AnyObject) {
         playHitSound()
+        plyr1AttkBtn.hidden = true
+        delayAttack()
+        if enemy.attemptAttack(player.attackPwr) {
+            messageLbl.text = "You Attacked \(enemy.name) for \(enemy.attackPwr)"
+            enemyHPLbl.text = "\(enemy.hp) HP"
+        } else {
+            messageLbl.text = "Your Attack Did Not Work"
+        }
+        
+        gameOver()
     }
     
     
@@ -108,6 +122,7 @@ class ViewController: UIViewController {
     }
     
     func playerSelected() {
+        viewDidLoad()
         playerHead.hidden = true
         enemyHead.hidden = true
         ChooseLbl.hidden = true
@@ -119,9 +134,31 @@ class ViewController: UIViewController {
         plyr2AttkBtn.hidden = false
         enemyHPLbl.hidden = false
         heroHPLbl.hidden = false
+        messageLbl.hidden = false
         
     }
-
+    
+    func gameOver() -> Bool{
+        
+        if !player.isAlive || !enemy.isAlive {
+        playerHead.hidden = false
+        enemyHead.hidden = false
+        ChooseLbl.hidden = false
+        
+        txtHolder.hidden = true
+        playerImg.hidden = true
+        enemyImg.hidden = true
+        plyr1AttkBtn.hidden = true
+        plyr2AttkBtn.hidden = true
+        enemyHPLbl.text = ""
+        heroHPLbl.text = ""
+        enemyHPLbl.hidden = true
+        heroHPLbl.hidden = true
+        messageLbl.hidden = true
+        return true
+        }
+        return false
+    }
     
     func playHitSound() {
         if hitSound.playing {
@@ -134,7 +171,28 @@ class ViewController: UIViewController {
         heroHPLbl.text = "\(player.hp) HP"
         enemyHPLbl.text = "\(enemy.hp) HP"
     }
+    
+    func showControls() -> Bool{
+        
+        if gameOver() == false {
+            if plyr1AttkBtn.hidden == true {
+                plyr1AttkBtn.hidden = false
+            } else if plyr2AttkBtn.hidden == true {
+                plyr2AttkBtn.hidden = false
+            }
 
+        }
+        return false
+    }
+    
+    func delayAttack() {
+        if plyr1AttkBtn.hidden == true {
+        NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: #selector(ViewController.showControls), userInfo: nil, repeats: false)
+        } else if plyr2AttkBtn.hidden == true {
+            NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: #selector(ViewController.showControls), userInfo: nil, repeats: false)
+       }
 
 }
+}
+
 
