@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "57193A9BC88C1226F788740B7D1821AD88ACF574",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3B60E482BB9EA5E049452A1887FAAE540D52B0D2" : 0,
+    "57193A9BC88C1226F788740B7D1821AD88ACF574" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D55C0F33-51B8-43CF-BFBA-D21B37F613AF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3B60E482BB9EA5E049452A1887FAAE540D52B0D2" : "..",
+    "57193A9BC88C1226F788740B7D1821AD88ACF574" : "Spartan_Proj\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Spartan_Proj",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Spartan_Proj.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/YourboyE\/ageTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B60E482BB9EA5E049452A1887FAAE540D52B0D2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:YourboyE\/Spartan_Proj.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57193A9BC88C1226F788740B7D1821AD88ACF574"
+    }
+  ]
+}
